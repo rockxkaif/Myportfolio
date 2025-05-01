@@ -122,7 +122,7 @@ export default function Home() {
             <div className="relative aspect-square rounded-full overflow-hidden bg-gradient-to-br from-[#4F46E5] to-[#FCD34D] p-1 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
                 <img
-                  src="/src/assets/kaif.jpg"
+                  src="/kaif.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
