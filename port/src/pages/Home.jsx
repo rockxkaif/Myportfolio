@@ -119,13 +119,10 @@ export default function Home() {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-[#4F46E5] to-[#FCD34D] rounded-full blur opacity-0 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             
             {/* Profile image container */}
-          <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
-  <img
-    src="https://drive.google.com/uc?export=view&id=1HHeHzDnD_ax5f952j6Fk1mlm_SjLvBTl"
-    alt="Profile"
-    className="w-full h-full object-cover"
-  />
-</div>
+            <div className="relative aspect-square rounded-full overflow-hidden bg-gradient-to-br from-[#4F46E5] to-[#FCD34D] p-1 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
+              <img src="/kaif.jpg" alt="Profile" className="w-full h-full object-cover" />
+              </div>
             </div>
           </div>
         </motion.div>
